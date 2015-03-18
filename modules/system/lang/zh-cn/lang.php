@@ -3,7 +3,7 @@
 return [
     'app' => [
         'name' => 'October CMS',
-        'tagline' => 'Getting back to basics'
+        'tagline' => '回到basics'
     ],
     'locale' => [
         'en' => 'English',
@@ -27,17 +27,17 @@ return [
         'zh-cn' => 'Chinese (China)'
     ],
     'directory' => [
-        'create_fail' => 'Cannot create directory: :name'
+        'create_fail' => '不能创建目录: :name'
     ],
     'file' => [
-        'create_fail' => 'Cannot create file: :name'
+        'create_fail' => '不能创建文件: :name'
     ],
     'combiner' => [
-        'not_found' => "The combiner file ':name' is not found."
+        'not_found' => "混合文件 ':name' 没找到."
     ],
     'system' => [
-        'name' => 'System',
-        'menu_label' => 'System',
+        'name' => '系统',
+        'menu_label' => '系统',
         'categories' => [
             'cms' => 'CMS',
             'misc' => 'Misc',
@@ -54,14 +54,14 @@ return [
         ]
     ],
     'plugin' => [
-        'unnamed' => 'Unnamed plugin',
+        'unnamed' => '未命名的插件',
         'name' => [
-            'label' => 'Plugin Name',
-            'help' => 'Name the plugin by its unique code. For example, RainLab.Blog'
+            'label' => '插件名称',
+            'help' => '输入插件的唯一代码. 比如 RainLab.Blog'
         ]
     ],
     'plugins' => [
-        'manage' => 'Manage plugins',
+        'manage' => '管理插件',
         'enable_or_disable' => 'Enable or disable',
         'enable_or_disable_title' => 'Enable or Disable Plugins',
         'remove' => 'Remove',
