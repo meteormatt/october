@@ -190,37 +190,37 @@ return [
         'theme_downloading' => '下载主题: :name',
         'theme_extracting' => '解压主题: :name',
         'update_label' => '更新软件',
-        'update_completing' => 'Finishing update process',
-        'update_loading' => 'Loading available updates...',
-        'update_success' => 'The update process was performed successfully.',
-        'update_failed_label' => 'Update failed',
-        'force_label' => 'Force update',
+        'update_completing' => '完成更新过程',
+        'update_loading' => '加载可用更新...',
+        'update_success' => '更新完成.',
+        'update_failed_label' => '更新失败',
+        'force_label' => '强制更新',
         'found' => [
-            'label' => 'Found new updates!',
-            'help' => 'Click Update software to begin the update process.'
+            'label' => '发现新更新!',
+            'help' => '点击更新.'
         ],
         'none' => [
-            'label' => 'No updates',
-            'help' => 'No new updates were found.'
+            'label' => '没有更新',
+            'help' => '没发现新更新.'
         ]
     ],
     'server' => [
-        'connect_error' => 'Error connecting to the server.',
-        'response_not_found' => 'The update server could not be found.',
-        'response_invalid' => 'Invalid response from the server.',
-        'response_empty' => 'Empty response from the server.',
-        'file_error' => 'Server failed to deliver the package.',
-        'file_corrupt' => 'File from server is corrupt.'
+        'connect_error' => '连接服务器失败.',
+        'response_not_found' => '找不到更新服务器.',
+        'response_invalid' => '服务器的异常返回.',
+        'response_empty' => '服务器的空返回.',
+        'file_error' => '服务器发送失败.',
+        'file_corrupt' => '服务器文件被占用.'
     ],
     'behavior' => [
-        'missing_property' => 'Class :class must define property $:property used by :behavior behavior.'
+        'missing_property' => 'Class :class 必须定义属性 $:property 被 :behavior behavior 使用.'
     ],
     'config' => [
-        'not_found' => 'Unable to find configuration file :file defined for :location.',
-        'required' => "Configuration used in :location must supply a value ':property'."
+        'not_found' => '不能查找配置文件 :file 为 :location 定义.',
+        'required' => "配置 :location 必须有 ':property'."
     ],
     'zip' => [
-        'extract_failed' => "Unable to extract core file ':file'."
+        'extract_failed' => "不能解压缩文件 ':file'."
     ],
     'event_log' => [
         'hint' => 'This log displays a list of potential errors that occur in the application, such as exceptions and debugging information.',
